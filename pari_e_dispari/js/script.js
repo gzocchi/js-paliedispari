@@ -49,11 +49,11 @@ function evenOrOdd(num) {
 }
 var even = evenOrOdd(sum);
 
-function vincita(sceltaUtente, even) {
+function vincita() {
   if (sceltaUtente == "pari" && even || sceltaUtente == "dispari" && !even) {
-    return "Hai vinto!!! Il totale è " + sceltaUtente;
+    return "Hai vinto!!!";
   } else {
-    return "Ha vinto il PC! Il totale è " + sceltaUtente;;
+    return "Ha vinto il PC!";
   }
 };
-console.log(vincita(sceltaUtente, even));
+console.log(vincita());
